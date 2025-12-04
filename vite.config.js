@@ -10,7 +10,7 @@ export default defineConfig({
     port: 3000,
     proxy: {
       '/chatbot': {
-        target: 'http://localhost:3001',
+        target: 'http://localhost:3002',
         changeOrigin: true
       }
     }
