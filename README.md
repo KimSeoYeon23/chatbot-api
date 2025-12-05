@@ -82,7 +82,7 @@ POST /chatbot/ask
 | 필드 | 타입 | 필수 | 설명 |
 |------|------|------|------|
 | message | string | ✅ | 사용자 메시지 |
-| model | string | ❌ | AI 모델명 (기본값: gemini-pro) |
+| model | string | ✅ | AI 모델명 |
 
 #### 지원 모델
 

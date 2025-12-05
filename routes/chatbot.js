@@ -19,7 +19,7 @@ router.post('/ask', async function(req, res, next) {
     res.setHeader('Transfer-Encoding', 'chunked');
 
     // Gemini 모델 가져오기 - 여러 모델명 시도
-    const modelName = model || 'gemini-pro';
+    const modelName = model || 'gemini-3-pro-preview';
     console.log('Using model:', modelName);
 
     const selectModel = genAI.getGenerativeModel({
